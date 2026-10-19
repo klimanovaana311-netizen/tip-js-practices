@@ -12,11 +12,11 @@ console.log("Эксперимент 1. Параметры и возвращае�
 
 console.log("Эксперимент 2. Тело стрелочной функции");
 {
-  // Здесь намеренно пропущен return. Исправление входит в задание 1.
+  // Пропущенный return исправлен (входит в задание 1).
   const square = (value) => {
-    value * value;
+    return value * value;
   };
-  console.log(square(4));
+  console.log(square(4)); //16
 }
 
 console.log("Эксперимент 3. Два имени одного объекта");
